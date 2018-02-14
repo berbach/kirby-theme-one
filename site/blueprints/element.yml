@@ -1,0 +1,21 @@
+title: Seitenelement
+pages: false
+files: true
+fields:
+  title:
+    label:
+      de: Titel
+      en: Title
+    type:  text
+  text:
+    label:
+      de: Text
+      en: Text
+    type:  textarea
+    width: 1/2
+  sidebar:
+    label:
+      de: Seitenleiste
+      en: Sidebar
+    type: textarea
+    width: 1/2

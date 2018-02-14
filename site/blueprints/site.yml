@@ -1,0 +1,161 @@
+title: Site
+pages: default
+fields:
+  info:
+    label:
+      de: Grundeinstellungen
+      en: Basic settings
+    type: info
+    text:
+      de: >
+          Angaben die größtenteils auf allen Seiten vorhanden sind.
+
+          Eine Übersicht über die Formatierungen in Textfelder, nicht alle sind hier anwendbar und formatiert: (link: https://getkirby.com/docs/content/text text:Formatting text popup: yes)
+      en: >
+          Informations which are mostly on every page.
+
+          An overview how to format text sections, not all are possible: (link: https://getkirby.com/docs/content/text text:Formatting text popup: yes)
+  title:
+    label:
+      de: Titel
+      en: Title
+    type:  text
+    help:
+      de: Pflichtangabe, wird als Seitentitel eingesetzt.
+      en: Required, will be insert as page title.
+  description:
+    label:
+      de: Seitenbeschreibung
+      en: Site description
+    type:  textarea
+    required: true
+    help:
+      de: Metaangabe für die Suchmaschinen, Pflichtangabe
+      en: Meta information for the search engine
+  textfooter:
+    label:
+      de: Angaben die im Footer abgebildet werden
+      en: Informations you can find in the footer
+    type: headline
+    help:
+      de: Diese Angaben sind auf allen Seiten unten auf der Seite vorhanden
+      en: This informations are on all pages at the bottom
+  copyright:
+    label: Copyright
+    type:  textarea
+  phone:
+    label:
+      de: Telefon
+      en: Phone
+    type: text
+    icon: phone
+    placeholder: +49 123 456 789
+    width: 1/2
+  mail:
+    label:
+      de: E-Mail-Adresse
+      en: Email
+    type: email
+    icon: envelope
+    width: 1/2
+  headlineFavicon:
+    label: Favicon
+    type: headline
+  infoFavicon:
+    type: info
+    text:
+      de: >
+          Das Favicon ist ein kleines Bild, das in der Adresszeile eines Browsers links von der URL angezeigt wird. Dies ist je nach Betriebsystem und Gerät unterschiedlich.
+      en: The favicon is an small icon, it will be display in the browser's address bar.
+  favicon:
+    label: Favicon
+    type: select
+    options: images
+    help:
+      de: Empfohlene Größe von 500x500 Pixel
+      en: Recommended size of 500px x 500px
+  headlineSettings:
+    label:
+      de: Einstellungen des Layouts
+      en: Settings of the layout
+    type: headline
+  headline-color:
+    label:
+      de: Farbe der Überschrift
+      en: Color of the headline
+    type: select
+    default: white
+    options:
+      white:
+        de: Weiß
+        en: White
+      black:
+        de: Schwarz
+        en: Black
+    width: 1/2
+    help:
+      de: Wird auf den Unterseiten auf den Headerbild abgebildet.
+      en: Will be set on the header image of the pages
+  base-color:
+    label:
+      de: Spezialfarbe
+      en: Special color
+    type: text
+    placeholder: '#000000'
+    width: 1/2
+    help:
+      de: Die Farbe muss als Hexadezimalwert angegeben werden. Unter anderen haben z.B. Links diese Farbe
+      en: The color has to be a hexadecimal value. This color will be taken for links, the menu and so on.
+  bg-color:
+    label:
+       de: Hintergrundfarbe des Headers, Footers und der Teaser
+       en: Background color of the header, footer and teaser
+    type: text
+    placeholder: '#000000'
+    width: 1/2
+    help:
+      de: Die Farbe muss als Hexadezimalwert angegeben werden. Die Teaser (auf der Startseite) haben einen Alphawert von .8
+      en: The color has to be a hexadecimal value. The teaser (on the homepage) have also an opacity of .8
+  font-color:
+    label:
+       de: Schriftfarbe des Headers, Footers und der Teaser
+       en: Font color of the header, footer and teaser
+    type: text
+    placeholder: '#ff0000'
+    width: 1/2
+    help:
+      de: Die Farbe muss als Hexadezimalwert angegeben werden.
+      en: The color has to be a hexadecimal value.
+  logo:
+    label: Logo
+    type: select
+    options: images
+    help:
+      de: Das Logo muss als SVG eingesetzt werden.
+      en: The logo has to be a svg.
+    required: true
+  googleanalytics:
+    label:
+      de: Google Analytics Code, optional
+      en: Google analytics code, optional
+    type: text
+    placeholder: UA-XXXX-Y
+    help:
+      de: >
+        Der Tracking Code ist im Google Analytics Konto unter Verwaltung > Property > Tracking-Informationen > Tracking Code zu finden
+        Hilfe: https://support.google.com/analytics/answer/6004245?hl=de&ref_topic=2919631
+        Unter Datenschutz die Möglichkeit zum Opt-Out gegeben sein
+      en: >
+        You find the tracking code in your google analytics account as admin under PROPERTY, click Tracking Info > Tracking Code.
+        Help: https://support.google.com/analytics/answer/6004245?hl=en&ref_topic=2919631.
+        You have to gave the consumer the possibility to Opt-Out / Disclaimer
+  small-header:
+    label:
+      de: Kleines Headerbild für die Unterseiten
+      en: Small Header image for the pages (except the homepage)
+    type: select
+    options: images
+    help:
+      de: Fallback; falls auf den Unterseiten kein Bild gesetzt wurde, wird dieses hier eingesetzt und ggf beschnitten (1920x375). Das Bild wird nicht auf der Startseite eingesetzt.
+      en: Fallback; if there is no header image on the page, this will be taken. If necessary it will be circumcised and scaled to 1920px x 375px
+    required: true

@@ -1,0 +1,7 @@
+label:
+  de: Headerbild
+  en: Header image
+type: image
+help:
+  de: Headerbild der Seite, wird ggf skaliert und beschnitten (1920x375).
+  en: Header image of the page, if necessary it will be circumcised and scaled (1920x375).

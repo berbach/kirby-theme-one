@@ -1,0 +1,48 @@
+title:
+  de: Beitrag
+  en: Article
+pages: false
+files: true
+fields:
+  title:
+    label:
+      de: Titel
+      en: Title
+    type:  text
+  header: header
+  type:
+    label:
+      de: Typ
+      en: Type
+    type: select
+    options:
+      pencil: Text
+      film: Video
+      image:
+        de: Bild(er)
+        en: Image(s)
+    width: 1/3
+  date:
+    label:
+      de: Datum
+      en: Date
+    type: date
+    width: 1/3
+  tags:
+    label:
+      de: Schlagwörter
+      en: Keywords
+    type: tags
+    width: 1/3
+  intro:
+    label:
+      de: Kurzer Anrisstext
+      en: Short introtext
+    type: textarea
+    buttons: false
+    validate:
+      minLength: 20
+      maxLength: 120
+  text:
+    label: Text
+    type:  textarea

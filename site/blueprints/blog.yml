@@ -1,0 +1,10 @@
+title: Blog
+pages: post
+files: true
+fields:
+  title:
+    label:
+      de: Titel
+      en: Title
+    type:  text
+  header: header

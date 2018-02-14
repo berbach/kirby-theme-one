@@ -1,0 +1,21 @@
+<?php
+l::set(array(
+    'continue' => 'Weiter',
+    'approach' => 'Anfahrt',
+    'address' => 'Adresse',
+    'phone' => 'Telefon',
+    'opening' => 'Öffnungszeiten',
+    'email' => 'E-Mail-Adresse',
+    'mobile' => 'Mobil',
+    'send' => 'senden',
+    'name' => 'Name',
+    'message' => 'Nachricht',
+    'subject' => 'Betreff',
+    'required' => 'Pflichtfeld',
+    'read' => 'Mehr lesen',
+    'previous' => 'Zurück',
+    'next' => 'Vor',
+    'CONTACT_MAIL_SEND' => 'Nachricht wurde gesendet :)',
+    'CONTACT_MAIL_FAIL' => 'Nachricht konnte nicht versendet werden',
+    'CONTACT_MISSING_INPUT' => 'Name, E-Mail und Nachricht sind Pflichtfelder!',
+));

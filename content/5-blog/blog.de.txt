@@ -1,0 +1,17 @@
+Title: Blog
+
+----
+
+Headline-color: white
+
+----
+
+Intro: 
+
+----
+
+Text: 
+
+----
+
+Sidebar: 

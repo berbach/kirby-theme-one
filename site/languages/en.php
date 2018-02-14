@@ -1,0 +1,21 @@
+<?php
+l::set(array(
+    'continue' => 'Continue',
+    'approach' => 'Approach',
+    'address' => 'Address',
+    'phone' => 'Phone',
+    'opening' => 'Opening hours',
+    'email' => 'Email',
+    'mobile' => 'Mobile',
+    'send' => 'send',
+    'name' => 'Name',
+    'message' => 'Message',
+    'subject' => 'Subject',
+    'required' => 'Required',
+    'read' => 'Read more',
+    'previous' => 'Previous',
+    'next' => 'next',
+    'CONTACT_MAIL_SEND' => 'Message was send :)',
+    'CONTACT_MAIL_FAIL' => 'Message can\'t be send',
+    'CONTACT_MISSING_INPUT' => 'Name, Email and Messag are required!',
+));

@@ -1,0 +1,8 @@
+.DS_Store
+/site/accounts
+/assets/avatars
+/thumbs/*
+/.idea
+/.cache
+/node_modules
+/assets/dist/

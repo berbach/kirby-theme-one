@@ -1,0 +1,247 @@
+title: Home
+pages: false
+files:
+  type:
+    - image
+  max: 20
+  sortable: true
+  fields:
+    caption:
+      label:
+        de: Titel
+        en: Title
+      type: text
+    subtitle:
+      label:
+        de: Untertitel
+        en: Subtitle
+      type: text
+fields:
+  info:
+    label:
+      de: Startseite
+      en: Homepage
+    type: info
+  title:
+    label:
+      de: Titel
+      en: Title
+    type: text
+    help:
+      de: Name der Seite in der Navigation und im Link (können unterschiedlich sein)
+      en: Name of page in navigation and in the link (can be different)
+  big-header:
+    label:
+      de: Großes Headerbild
+      en: Big header image
+    type: select
+    options: images
+    help:
+      de: Dieses wird auf der Startseite als Fullscreen Image abgebildet. Das Bild wird zu 1920px beschnitten bzw skaliert, die Höhe ergibt sich dazu proportional.
+      en: This image on the homepage will be a fullscreen Image. If necessary it will be circumcised and scaled to 1920px, the height will be in proportion to this.
+    required: true
+  imagetitle:
+    label:
+      de: Schriftzug auf dem Fullscreen Image
+      en: Text on fullscreen image
+    type: text
+    help:
+      de: Optional
+      en: Optional
+  slider:
+    label:
+      de: Textslider
+      en: Slider with text
+    type:  tags
+    help:
+      de: Die Wörter die hier eingefügt werden, sliden langsam auf dem Bild. Die Wörter müssen jeweils mit einem »enter« eingepflegt werden. Der Slider ist optional.
+      en: This words slide slowly on the image. Every word has to be insert with an »enter«. This slider is optional.
+  headline-intro:
+    label:
+      de: Teaser
+      en: Teaser
+    type: headline
+    help:
+      de: Die Teaser ordnen sich von links nach rechts an. Die Texte werden aus den »Kurzer Anrisstext« (auf der jeweiligen Seite auf die sie verweisen) generiert. Die Icons sind optional.
+      en: This teaser aligned from left to right. The textes in the teaser are the introtext of the page they link to. The icons are optional.
+  teaser-1-icon:
+    label:
+      de: Teaser 1 Icon
+      en: Teaser 1 Icon
+    type: text
+    icon: file-image-o
+    width: 1/3
+    placeholder: first-order
+  teaser-2-icon:
+    label:
+      de: Teaser 2 Icon
+      en: Teaser 2 Icon
+    type: text
+    icon: file-image-o
+    width: 1/3
+    placeholder: rebel
+  teaser-3-icon:
+    label:
+      de: Teaser 3 Icon
+      en: Teaser 3 Icon
+    type: text
+    icon: file-image-o
+    width: 1/3
+    placeholder: empire
+  info-teaser:
+    type: info
+    text:
+      de: >
+          Die Bezeichnungen der Icons sind (link: http://fontawesome.io/icons/ text: hier popup: yes) zu finden. Es wird nur der einfache Begriff eingesetzt (z.B. check)
+      en: >
+          You can find the names of the icons (link: http://fontawesome.io/icons/ text: here popup: yes). Only the simple name ist necessary (example »check«)
+  teaser-1:
+    label:
+      de: Teaser 1
+      en: Teaser 1
+    type: select
+    options: visibleSiblings
+    width: 1/3
+  teaser-2:
+    label:
+      de: Teaser 2
+      en: Teaser 2
+    type: select
+    options: visibleSiblings
+    width: 1/3
+  teaser-3:
+    label:
+      de: Teaser 3
+      en: Teaser 3
+    type: select
+    options: visibleSiblings
+    width: 1/3
+  headline-blocks:
+    label:
+      de: Textblöcke
+      en: Text blocks
+    type: headline
+    help:
+      de: Es werden immer 2 Textblöcke eingefügt, optional
+      en: It will be insert 2 text blocks, optional
+  font-icon:
+    label:
+      de: Font Awesome Icon bevor den Textblöcken
+      en: Font Awesome Icon before the text blocks
+    type: text
+    placeholder: check
+    required: true
+  info-blocks:
+    type: info
+    text:
+      de: >
+        Die Bezeichnungen der Icons sind (link: http://fontawesome.io/icons/ text: hier popup: yes) zu finden. Es wird nur der einfache Begriff eingesetzt (z.B. check)
+      en: >
+        You can find the names of the icons (link: http://fontawesome.io/icons/ text: here popup: yes). Only the simple name ist necessary (example »check«)
+  text-blocks:
+    label:
+      de: Textblöcke
+      en: Text blocks
+    type: structure
+    entry:
+      de: >
+        Linker Textblock: {{text_a_title}}<br />
+        Rechter Textblock: {{text_b_title}}
+      en: >
+          Text block on the left: {{text_a_title}}<br />
+          Text block on the right: {{text_b_title}}
+    help:
+      de: Überschriften der eingepflegten Texte
+      en: headlines of the textes.
+    fields:
+      text-a-title:
+        label:
+          de: Titel linker Block
+          en: Title of the left block
+        type: text
+      text-a:
+        label:
+          de: Text linker Block
+          en: Text of the left block
+        type: textarea
+      text-b-title:
+        label:
+          de: Titel rechter Block
+          en: Title of the right block
+        type: text
+      text-b:
+        label:
+          de: Text rechter Block
+          en: text of the right block
+        type: textarea
+  headline-gallery:
+    label:
+      de: Galerie
+      en: Gallery
+    type: headline
+    help:
+      de: Die Bilder ordnen sich von links nach rechts an und werden auf 400px mal 200px skaliert und/oder beschnitten. Optional
+      en: The images aligned from left to right and if necessary they will be circumcised and scaled to 400px x 200px, optional
+  gallery:
+    label:
+      de: Galerie
+      en: Gallery
+    type: structure
+    entry: >
+      {{picture}} <br />{{title}} | {{subtitle}}
+    fields:
+      picture:
+        label:
+          de: Bild
+          en: Image
+        type: image
+      title:
+        label:
+          de: Titel
+          en: Title
+        type: text
+      subtitle:
+        label:
+          de: Untertitel
+          en: Subtitle
+        type: text
+  headline-feedback:
+    label:
+      de: Text Slider (Kundenmeinungen, Zitate, Presse, etc)
+      en: Text slider (product reviews, quotations, press and so on)
+    type: headline
+    help:
+      de: Der Slider ist optional und wird nur angezeigt, wenn Textblöcke vorhanden sind.
+      en: The slider is optional and will only be visible, if there are also text blocks.
+  feedback-headline:
+    label:
+      de: Überschrift
+      en: Headline
+    type: text
+    placeholder:
+      de: Kundenmeinungen
+      en: Product reviews
+  feedback:
+    label:
+      de: Textblöcke
+      en: Text blocks
+    type: structure
+    entry: >
+      {{text}}
+    fields:
+      text:
+        label: Text
+        type: textarea
+        buttons: false
+        validate:
+          maxLength: 300
+        help:
+          de: Maximal 300 Zeichen
+          en: Maximum 300 character
+      info:
+        type: info
+        text:
+          de: >
+              Links kann man im (link: https://getkirby.com/docs/content/text#links text: Markdown popup: yes) setzen
+          en: >
+              Links can be set in (link: https://getkirby.com/docs/content/text#links text: Markdown popup: yes)

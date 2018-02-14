@@ -1,0 +1,156 @@
+title: Kontakt
+pages: false
+files: true
+fields:
+  info:
+    label:
+      de: Bild und Text
+      en: Image and text
+    type: info
+    text:
+      de: >
+          Kontaktseite mit Formular, Aufteilung in Inhaltsspalte (links) und Seitenleiste (rechts)
+      en: >
+          Contact with form, split in main column (left) and sidebar (right)
+  title:
+    label:
+      de: Titel
+      en: Title
+    type:  text
+    help:
+      de: Name der Seite in der Navigation und im Link (können unterschiedlich sein)
+      en: Name of page in navigation and in the link (can be different)
+  header: header
+  form:
+    label:
+      de: Einstellungen für das Formular
+      en: Form settings
+    type: headline
+    numbered: false
+  form-mail:
+    label:
+      de: E-Mail-Adresse an wem das Formular geschickt werden soll
+      en: Email adress for the form
+    type: email
+    required: true
+  form-subject:
+    label:
+      de: Betreff der E-Mail
+      en: Subject of the Email
+    type: text
+    required: true
+  content:
+    label:
+      de: Inhaltsspalte
+      en: Main column
+    type: headline
+    numbered: false
+  text:
+    label:
+      de: Einleitung
+      en: Introduction
+    type:  textarea
+    validate:
+      maxLength: 300
+    help:
+      de: Der Einleitungstext über dem Kontaktformulars, maximal 300 Zeichen
+      en: The introduction over the contact form, maximum 300 character
+  optionalText:
+    label:
+      de: Text
+      en: Text
+    type:  textarea
+    help:
+      de: Text unter dem Formular, optional
+      en: Text under the form, optional
+  sidebar:
+      label:
+        de: Seitenleiste
+        en: Sitebar
+      type: headline
+      numbered: false
+  headlineSidebar:
+    label:
+      de: Überschrift Sidebar
+      en: Headline Sidebar
+    type: text
+    placeholder: Kontaktdaten
+    help:
+      de: Optional
+      en: Optional
+  address:
+    label:
+      de: Adresse
+      en: Address
+    type: textarea
+    buttons: false
+    icon: home
+    width: 1/2
+    help:
+      de: Optional
+      en: Optional
+  opening:
+    label:
+      de: Öffnungszeiten
+      en: Opening hours
+    type: textarea
+    buttons: false
+    icon: clock-o
+    width: 1/2
+    help:
+      de: Optional
+      en: Optional
+  phone:
+    label:
+      de: Telefon
+      en: Phone
+    type: text
+    icon: phone
+    width: 1/2
+    help:
+      de: Optional
+      en: Optional
+  mail:
+    label:
+      de: E-Mail-Adresse
+      en: Email
+    type: email
+    width: 1/2
+    help:
+      de: Optional
+      en: Optional
+  mobile:
+    label:
+      de: Mobil
+      en: Mobile
+    type: text
+    icon: mobile
+    width: 1/2
+    help:
+      de: Optional
+      en: Optional
+  map:
+    label:
+      de: Google Map
+      en: Google Map
+    type: headline
+    numbered: false
+    help:
+      de: Optional, wird nur angezeigt, wenn auch ein Link zur Karte eingefügt ist.
+      en: Optional, only appears if a link to the map is there.
+  mapslogan:
+    label:
+      de: Überschrift der Karte
+      en: Headline of the map
+    type: text
+    help:
+      de: Optional
+      en: Optional
+  mapslink:
+    label:
+      de: Link zur Karte
+      en: Link to the map
+    type: url
+    help:
+      de: Unter https://www.google.de/maps kann der Ort gewählt werden, welchen man einbetten möchte. Dort auf den »Teilen« Link klicken, dann »Karte einbetten«. Aus diesem Link »< iframe src="https://www.google.com/maps/embed?pb=!1m12!1m3!1d155421.59m2!1s0x47a84e373f035901%3A0x421204!2sde!4v1503664873670" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>, alles was hinter »src« in den Klammern steht kopieren und hier einfügen.
+      en: On https://www.google.de/maps you chose the position, you want to embeded, Here you have to click on »share« and here to embed the map. Of the link »< iframe src="https://www.google.com/maps/embed?pb=!1m12!1m3!1d155421.59m2!1s0x47a84e373f035901%3A0x421204!2sde!4v1503664873670" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>, you only need what is after »src« in the bracket.

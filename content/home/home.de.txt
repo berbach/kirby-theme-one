@@ -1,0 +1,205 @@
+Title: Home
+
+----
+
+Text: 
+
+Yay! If you are seeing this, the installation of Kirby worked. :)
+
+## Get started
+
+- Go to the (link: panel text: panel) to give Kirby's admin interface a try
+- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
+- Follow (twitter: @getkirby) on Twitter for updates
+- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
+- (link: http://getkirby.com/support text: Get in contact) if you need support.
+
+**Have fun with Kirby!**
+
+----
+
+Feedback: 
+
+- 
+  name: ""
+  title: dd
+  text: >
+    Lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. Aenean commodo ligula
+    eget dolor. Aenean massa. Cum sociis
+    natoque penatibus et magnis dis
+    parturient montes, nascetur ridiculus
+    mus. Donec quam felis, ultricies nec,
+    pellentesque eu, pretium quis, sem.
+- 
+  name: ""
+  title: dd
+  text: >
+    Nulla consequat massa quis enim. Donec
+    pede justo, fringilla vel, aliquet nec,
+    vulputate eget, arcu. In enim justo,
+    rhoncus ut, imperdiet a, venenatis
+    vitae, justo. Nullam dictum felis eu
+    pede mollis pretium. Integer tincidunt.
+- 
+  name: ""
+  title: dd
+  text: >
+    Cras dapibus. Vivamus elementum semper
+    nisi. Aenean vulputate eleifend tellus.
+    Aenean leo ligula, porttitor eu,
+    consequat vitae, eleifend ac, enim.
+    Aliquam lorem ante, dapibus in, viverra
+    quis, feugiat a, tellus. Phasellus
+    viverra nulla ut metus varius laoreet.
+    Quisque rutrum.
+- 
+  name: ""
+  title: dd
+  text: >
+    Aenean imperdiet. Etiam ultricies nisi
+    vel augue. Curabitur ullamcorper
+    ultricies nisi. Nam eget dui. Etiam
+    rhoncus. Maecenas tempus, tellus eget
+    condimentum rhoncus, sem quam semper
+    libero, sit amet adipiscing sem neque
+    sed ipsum. Nam quam nunc, blandit vel,
+    luctus pulvinar, hendrerit id, lorem.
+
+----
+
+Teaser-1: text
+
+----
+
+Teaser-2: media
+
+----
+
+Teaeser-3: extras
+
+----
+
+Teaser-1-icon: first-order
+
+----
+
+Teaser-2-icon: rebel
+
+----
+
+Teaser-3-icon: empire
+
+----
+
+Teaser-3: extras
+
+----
+
+Text-blocks: 
+
+- 
+  text_a_title: Lorem ipsum
+  text_a: >
+    Lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. Aenean commodo ligula
+    eget dolor. Aenean massa. Cum sociis
+    natoque penatibus et magnis dis
+    parturient montes, nascetur ridiculus
+    mus. Donec quam felis, ultricies nec,
+    pellentesque eu, pretium quis, sem.
+  text_b_title: Dolor sit amet
+  text_b: >
+    Lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. Aenean commodo ligula
+    eget dolor. Aenean massa. Cum sociis
+    natoque penatibus et magnis dis
+    parturient montes, nascetur ridiculus
+    mus. Donec quam felis, ultricies nec,
+    pellentesque eu, pretium quis, sem.
+- 
+  text_a_title: Consectetuer
+  text_a: >
+    Lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. Aenean commodo ligula
+    eget dolor. Aenean massa. Cum sociis
+    natoque penatibus et magnis dis
+    parturient montes, nascetur ridiculus
+    mus. Donec quam felis, ultricies nec,
+    pellentesque eu, pretium quis, sem.
+  text_b_title: Adipiscing elit
+  text_b: >
+    Lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. Aenean commodo ligula
+    eget dolor. Aenean massa. Cum sociis
+    natoque penatibus et magnis dis
+    parturient montes, nascetur ridiculus
+    mus. Donec quam felis, ultricies nec,
+    pellentesque eu, pretium quis, sem.
+
+----
+
+Feedback-headline: 
+
+----
+
+Font-icon: check
+
+----
+
+Big-header: chris-davis-9967.jpg
+
+----
+
+Imagetitle: berbach theme one for kirby
+
+----
+
+Slider: great,delicious,berlin,yummy,lovely,savoury,berbach
+
+----
+
+Gallery: 
+
+- 
+  picture: image.jpg
+  title: Die Insel des Echsenkönigs
+  subtitle: "1986"
+- 
+  picture: image2.jpg
+  title: Der Sumpf der Skorpione
+  subtitle: "1986"
+- 
+  img: image3.jpg
+  title: Das Labyrinth des Todes
+  subtitle: "1985"
+  picture: image3.jpg
+- 
+  picture: image4.jpg
+  title: Die Höhlen der Schneehexe
+  subtitle: "1986"
+- 
+  picture: image5.jpg
+  title: Das Höllenhaus
+  subtitle: "1986"
+- 
+  picture: image7.jpg
+  title: Der Talisman des Todes
+  subtitle: "1987"
+- 
+  picture: image8.jpg
+  title: Der Tempel des Schreckens
+  subtitle: "1987"
+- 
+  picture: image9.jpg
+  title: Der Stern der Schmuggler
+  subtitle: "1987"
+- 
+  image: image.jpg
+  title: Die Stadt der Diebe
+  subtitle: "1985"
+  picture: image10.jpg
+- 
+  picture: image6.jpg
+  title: Der Wettstreit der Gladiatoren
+  subtitle: "1989"

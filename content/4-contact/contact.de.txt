@@ -1,0 +1,33 @@
+Title: Kontakt
+
+----
+
+Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+
+----
+
+Address: 
+
+berbach GmbH
+Agentur für Design und Medien
+Lausitzer Straße 31, D-10999 Berlin
+
+----
+
+Phone: +49 30 616755 -0
+
+----
+
+Mobile: 
+
+----
+
+Mail: kontakt@berbach.de
+
+----
+
+Mapslogan: Wie finden Sie zu uns? Schauen Sie auf die Karte.
+
+----
+
+Mapslink: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.1159878291714!2d13.425321316470153!3d52.495139979809494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84fb56cbbcdbd%3A0xcfa5daf74161f5e5!2sberbach+GmbH!5e0!3m2!1sde!2sde!4v1474884148463

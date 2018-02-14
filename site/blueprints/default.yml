@@ -1,0 +1,31 @@
+title: Seite
+pages: element
+files: true
+fields:
+  title:
+    label:
+      de: Titel
+      en: Title
+    type:  text
+  header: header
+  intro:
+    label:
+      de: Kurzer Anrisstext
+      en: Short intro text
+    type: textarea
+    buttons: false
+    validate:
+      minLength: 20
+      maxLength: 120
+  text:
+    label:
+      de: Text
+      en: Text
+    type:  textarea
+    width: 1/2
+  sidebar:
+    label:
+      de: Seitenleiste
+      en: Sidebar
+    type: textarea
+    width: 1/2

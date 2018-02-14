@@ -1,0 +1,23 @@
+{
+  "name": "kirby-theme-one",
+  "version": "1.0.0",
+  "repository": "git@git.berbach.de:kt/kirby-theme-one-kirby.git",
+  "author": "Stephan Plöhn <ploehn@berbach.de>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "css-loader": "^0.28.9",
+    "fancybox": "2.1.5",
+    "font-awesome": "^4.7.0",
+    "imagesloaded": "^4.1.4",
+    "jquery": "^3.3.1",
+    "masonry-layout": "4.2.0"
+  },
+  "devDependencies": {
+    "ev-emitter": "^1.1.1",
+    "jquery-bridget": "^2.0.1",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.5.1"
+  }
+}

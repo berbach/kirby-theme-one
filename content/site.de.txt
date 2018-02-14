@@ -1,0 +1,37 @@
+Title: berbach Demo
+
+----
+
+Description: Welcome to the berbach demo.
+
+----
+
+Copyright: © 2015-(date: Year) (link: http://berbach.de text: berbach GmbH) - (link: impressum text: Impressum) - (link: datenschutz text: Datenschutz)
+
+----
+
+Headline-color: black
+
+----
+
+Phone: +49 30 616755 -0
+
+----
+
+Mail: kontakt@berbach.de
+
+----
+
+Base-color: #bb6e91
+
+----
+
+Logo: logo.svg
+
+----
+
+Small-header: irene-davila-45777.jpg
+
+----
+
+Favicon: safari-pinned-tab.svg

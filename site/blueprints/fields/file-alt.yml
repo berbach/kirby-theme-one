@@ -1,0 +1,5 @@
+label:
+  de: Kurze Dateibeschreibung
+  en: Short file description
+type: text
+required: true

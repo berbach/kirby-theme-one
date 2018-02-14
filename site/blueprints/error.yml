@@ -1,0 +1,15 @@
+title: Fehler
+pages: false
+files: false
+fields:
+  title:
+    label:
+      de: Titel
+      en: Title
+    type:  text
+  header: header
+  text:
+    label:
+      de: Text
+      en: Text
+    type:  textarea

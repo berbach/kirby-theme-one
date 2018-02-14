@@ -1,0 +1,5 @@
+Title: Error
+
+----
+
+Text: Diese Seite existiert nicht. Das tut mir Leid :/
